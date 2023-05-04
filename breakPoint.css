@@ -1,0 +1,25 @@
+div {
+    border: 1px solid #000;
+    margin: 10px 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {  /*largura máxima para mudar a configuração, neste caso é como se fosse para tablet*/
+    div {
+        border-color: red;
+        display: block;
+        padding: 10px;
+        margin: 5px 10px;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: blue;
+        text-decoration: underline;
+    }
+
+    p {
+        color: red;
+    }
+}

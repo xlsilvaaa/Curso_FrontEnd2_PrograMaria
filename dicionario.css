@@ -1,0 +1,117 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) { /*@media serve para configurar um quebra de ponto para telas de tablet neste caso*/
+    header {
+        height: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+    font-size: 36px;
+    }
+}
+
+section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.div {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    vertical-align: top;  /*não sei pra quê serve neste exemplo*/
+    max-height: 100%;     /*não sei pra quê serve neste exemplo*/
+}
+
+@media (max-width: 768px) {
+    .div {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.div img {
+    display: block;     /*não sei pra quê serve neste exemplo*/
+    width: 300px;       /*não sei pra quê serve neste exemplo*/
+    height: 300px;      /*não sei pra quê serve neste exemplo*/
+}
+
+@media (max-width: 768px) {
+    .div img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.div details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+   .div details {
+        width: 100%;
+    }
+}
+
+.div details summary {
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .div details summary {
+        font-size: 16px;
+    }
+}
+
+.div details p {
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .div details p {
+        font-size: 14px;
+    }
+}
+
+.div details blockquote {
+    color: #777;
+    font-style: italic;
+}
+  
+
+
+    
+
+    
+
+
+
+
+
+   
